@@ -16,7 +16,7 @@ diez_primeros = ['00','01','02','03','04','05','06','07','08','09']
 def convertir_regex(numero):
     numero1 = int(numero[0:1])
     numero2 = int(numero[1:])
-    return '^(a|e|i|o|u)*' + referencias[numero1] + '(a|e|i|o|u)*' + referencias[numero2] + '(a|e|i|o|u)*\n'
+    return '^(a|e|i|o|u|y|h)*' + referencias[numero1] + '(a|e|i|o|u|y|h)*' + referencias[numero2] + '(a|e|i|o|u|y|h)*\n'
 
 def num_regex():
     retorno = []
